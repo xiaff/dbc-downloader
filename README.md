@@ -2,7 +2,7 @@
 这个工具可以下载用一位豆瓣读书用户的ID，批量下载其所有的读书短评，并导出为Markdown格式文件。
 
 ### 运行方法
-1. 如果你想直接运行，请点击这里下载工具，在解压后打开**dbc-downloader.exe**运行。
+1. 如果你想直接运行，请点击[这里](https://github.com/xiaff/dbc-downloader/raw/master/dbc-downloader.zip)下载工具，在解压后打开**dbc-downloader.exe**运行。
 2. 如果你在计算机中安装了**Python 2.7**以及**codeces**、**BeautifulSoup** 模块，可以直接运行**DoubanUserBookCommentDownloader.py**.
 
 ### 设置代理
