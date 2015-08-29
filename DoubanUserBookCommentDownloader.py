@@ -12,8 +12,8 @@ import urllib2
 import os
 
 #设置HTTP代理
-ans=raw_input('Do you want to use a HTTP Proxy (Y/n)? ')
-if ans=='y' or ans=='':
+ans=raw_input('Do you want to use a HTTP Proxy (N/y)? ')
+if ans=='y' or ans=='Y':
     print 'HTTP Proxy formart: IP:PORT \nExample: 127.0.0.1:80'
     print 'Do NOT contain any unnecessary characters.'
     proxyInfo=raw_input('Please type in your HTTP Proxy: ')
@@ -146,7 +146,7 @@ def getPageNum(html):
 print '\n\nYou can find User-Id in the url.'
 print 'E.g. Someone\'s homepage\'url is http://book.douban.com/people/1000001/ , the User-Id should be 1000001 .'
 uId=raw_input('User-Id: ')
-while(uId==''):
+while(uId=='' or uId=='\t' or uId==' '):
 	uId=raw_input('User-Id: ')
 count=0     #计数器
 
