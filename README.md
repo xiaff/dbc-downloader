@@ -15,7 +15,8 @@
 
 ### 输出格式
 用户的读书短评最终会以Markdown格式输出，该文件的扩展名为**.md**。  
-如果你不了解Markdown，你可以使用markdown编辑器将该文件转换为pdf或html文件。
+如果你不了解Markdown，你可以使用markdown编辑器将该文件转换为pdf或html文件。  
+推荐一个方便的在Markdown[在线编辑器](http://mahua.jser.me/)，打开网页后直接把.md文件拖动到网页中即可导入。
 
 **内容格式说明**  
 每一条读书评论都由以下部分组成：  
