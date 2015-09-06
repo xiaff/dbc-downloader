@@ -2,8 +2,8 @@
 这个工具可以使用一位豆瓣读书用户的ID，批量下载其所有的读书短评，并导出为Markdown格式文件。
 
 ### 运行方法
-1. 如果你想直接运行，请点击[这里](https://github.com/xiaff/dbc-downloader/raw/master/dbc-downloader.zip)下载工具，在解压后打开**dbc-downloader.exe**运行。
-2. 如果你在计算机中安装了**Python 2.7**以及**codeces**、**BeautifulSoup** 模块，可以直接运行**DoubanUserBookCommentDownloader.py**.
+1.  Windows：请点击[这里](https://github.com/xiaff/dbc-downloader/raw/master/dbc-downloader.zip)下载工具，在解压后打开**dbc-downloader.exe**运行。  
+2.  Python3 环境：执行命令**python dbcDownloader.py**.
 
 ### 设置代理
 可以选择是否使用代理。  
@@ -15,11 +15,10 @@
 
 ### 输出格式
 用户的读书短评最终会以Markdown格式输出，该文件的扩展名为**.md**。  
-如果你不了解Markdown，你可以使用markdown编辑器将该文件转换为pdf或html文件。  
-推荐一个方便的在Markdown[在线编辑器](http://mahua.jser.me/)，打开网页后直接把.md文件拖动到网页中即可导入。
+如果你不了解Markdown，你可以选择输出Html格式的文件，然后在Chrome等浏览器中打开，选择打印功能输出PDF文件，或者将内容复制到任何地方。
 
-**内容格式说明**  
-每一条读书评论都由以下部分组成：  
+#### 内容格式说明
+每一条读书评论由以下部分组成：
 1.  第一行为书本标题，如果中文标题则会加上书名号，其他语言标题则会使用斜体格式  
 2.  第二行为图书出版相关信息  
 3.  第三行为图书标签  
@@ -28,4 +27,4 @@
 
 ### 其他
 为了防止由于访问过于频繁而使IP被豆瓣频闭，在代码的循环中使用了`time.sleep(5)`，每访问一个
-网页等待5秒。如果你愿意的话，可以修改这个数值。
+网页等待5秒。如果你愿意的话，可以在源代码修改这个数值，并重新生成exe文件。
