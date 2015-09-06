@@ -1,5 +1,5 @@
 # 豆瓣用户读书短评下载工具
-这个工具可以使用一位豆瓣读书用户的ID，批量下载其所有的读书短评，并导出为Markdown格式文件。
+这个工具可以使用一位豆瓣读书用户的ID，批量下载其所有的读书短评，并导出为 Markdown 和 Html 格式文件。
 
 ### 运行方法
 1.  Windows：请点击[这里](https://github.com/xiaff/dbc-downloader/raw/master/dbc-downloader.zip)下载工具，在解压后打开**dbc-downloader.exe**运行。  
